@@ -1,6 +1,6 @@
 document.addEventListener("click", (e) => {
     if (e.target.dataset.short) {
-      const url = `http://localhost:6001/${e.target.dataset.short}`;
+      const url = `https://express-mongodb-um32.onrender.com/${e.target.dataset.short}`;
   
       navigator.clipboard
         .writeText(url)
