@@ -1,0 +1,10 @@
+# Excluir la carpeta node_modules
+node_modules/
+
+# Excluir archivos de variables de entorno
+.env
+
+# Excluir archivos de log
+*.log
+
+
